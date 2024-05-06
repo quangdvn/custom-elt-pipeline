@@ -1,0 +1,6 @@
+.venv
+.vscode
+/logs
+Pipfile.lock
+.pylintrc
+/*/**/__pycache__
