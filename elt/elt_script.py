@@ -22,7 +22,7 @@ def wait_for_portgres(host, max_retries=5, delay_seconds=5):
 
 
 if not wait_for_portgres(host='source_postgres'):
-  exit(1)
+  sys.exit(1)
 
 print("Starting ELT script...")
 
